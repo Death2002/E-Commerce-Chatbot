@@ -46,7 +46,7 @@ This is a simple e-commerce web application built using Flask. It includes user 
 
 1. Run the Flask application:
     ```sh
-    python app.py
+    python run.py
     ```
 
 2. Open your web browser and go to `http://127.0.0.1:5000/`.
