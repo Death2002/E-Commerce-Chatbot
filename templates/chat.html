@@ -1,0 +1,22 @@
+
+{% extends "base.html" %}
+
+{% block title %}E-Commerce Chatbot{% endblock title %}
+
+{% block content %}
+<div id="chat-container">
+    <h2>Chat with E-commerce Bot</h2>
+    <div id="chat-box">
+        <div id="chat-messages"></div>
+    </div>
+    <form id="chat-form">
+        <input type="text" id="user-input" placeholder="Type your message..." required>
+        <button type="submit">Send</button>
+    </form>
+    <button id="reset-chat">Reset Chat</button>
+    <form method="POST" action="/logout">
+        <button type="submit">Logout</button>
+    </form>
+</div>
+<script src="{{ url_for('static', filename='script.js') }}"></script>
+{% endblock content %}
