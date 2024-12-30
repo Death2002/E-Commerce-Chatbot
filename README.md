@@ -16,7 +16,7 @@ This is a simple e-commerce web application built using Flask. It includes user 
 
 1. Clone the repository:
     ```sh
-    git clone https://github.com/yourusername/ecommerce-flask.git
+    git clone https://github.com/Death2002/E-Commerce-Chatbot
     cd ecommerce-flask
     ```
 
